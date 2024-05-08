@@ -53,7 +53,7 @@ Make sure you update the app id with the one from the terminal earlier
   // CHANGE THIS TO YOUR APP ID
   const app_address = YOUR APP ID;
   // CHANGE THIS TO YOUR APP ID
-```
+``` 
 When the code is prepared, install the dependencies:
 ```bash
 npm install

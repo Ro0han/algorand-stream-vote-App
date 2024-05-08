@@ -7,7 +7,7 @@ dotenv.config();
 const baseServer = "https://testnet-api.algonode.cloud";
 const algodClient = new algosdk.Algodv2('', baseServer, '');
 
-let myaccount = algosdk.mnemonicToSecretKey("tower explain service require make inject shuffle fun artist cement dove marriage raise speak hobby various earn will visit boy erase beyond civil absorb carry");
+let myaccount = algosdk.mnemonicToSecretKey("gospel divide radar physical custom yellow rapid orphan mother monster ancient suspect peace hill gadget wool jazz camera dog about yellow grow use abandon poet");
 let sender = myaccount.addr;
 
 async function compileProgram(client, TealSource) {

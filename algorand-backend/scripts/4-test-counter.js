@@ -13,9 +13,9 @@ client.getApplicationByID(index).do();
 }
 
 // Application ID
-let index = 660125337;
+let index = 660197388;
 //Make sure you change it to yours.
-let myaccount = algosdk.mnemonicToSecretKey("tower explain service require make inject shuffle fun artist cement dove marriage raise speak hobby various earn will visit boy erase beyond civil absorb carry");
+let myaccount = algosdk.mnemonicToSecretKey("gospel divide radar physical custom yellow rapid orphan mother monster ancient suspect peace hill gadget wool jazz camera dog about yellow grow use abandon poet");
 
 let sender = myaccount.addr;
 
