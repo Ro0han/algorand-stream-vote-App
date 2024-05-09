@@ -1,5 +1,5 @@
 
-# Algorand Song Vote Tutorial
+# Algorand Stream Vote 
 
 The present tutorial is designed to cater to the needs of programmers with varying degrees of proficiency, who aspire to engage in web3 development or Algorand chain development. A basic comprehension of javascript, python, and smart contracts would suffice as a prerequisite to engage with the content. The tutorial is structured in a manner that facilitates progressive learning, with the aim of enabling the participant to attain a comprehensive understanding of the Algorand development pipeline and successfully create a functional dapp.
 
@@ -26,10 +26,10 @@ node scripts/1-create-account.js
 ```
 Make sure you saved the account data and open in in a wallet created on [Pera Wallet](https://web.perawallet.app/)
 
-- Run the songvote script in python to create the artifacts
+- Run the streamvote script in python to create the artifacts
 
 ```bash
-python3 contracts/songvote.py
+python3 contracts/streamvote.py
 ```
 
 - Deploy the smart contracts
@@ -45,7 +45,7 @@ node scripts/5-deploy-songvote.js
 - Start the front-end
 ```bash
 cd ..
-cd songvote
+cd streamvote
 ```
 
 Make sure you update the app id with the one from the terminal earlier
