@@ -231,14 +231,14 @@ function App() {
               <>
                 <div className="stream-container">
                   <div className="strean-card">
-                    <div className="title">video</div>
+                    <div className="title">Live video</div>
                     <div className="count">{Count1}</div>
                     <button className="mathButton" onClick={addC1}>
                       {voteState1}
                     </button>
                   </div>
                   <div className="stream-card">
-                    <div className="title">audio</div>
+                    <div className="title">audio/podcast</div>
                     <div className="count">{Count2}</div>
                     <button className="mathButton" onClick={addC2}>
                       {voteState2}
