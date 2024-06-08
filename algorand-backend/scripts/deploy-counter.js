@@ -6,7 +6,7 @@ dotenv.config();
 const baseServer = "https://testnet-api.algonode.cloud";
 
 const algodClient = new algosdk.Algodv2("", baseServer, "");
-let myaccount = algosdk.mnemonicToSecretKey("fever bread rescue mesh narrow flush limit deliver diesel affair teach follow stadium reward link winter copper noble current own pelican lumber excite about glory");
+let myaccount = algosdk.mnemonicToSecretKey("curtain symbol vocal key tomorrow damage relax regret sibling early bonus drift tourist maze stable wheat buzz bleak genre snow whip usage strike above gallery");
 
 let sender = myaccount.addr;
 
