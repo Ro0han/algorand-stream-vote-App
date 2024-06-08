@@ -38,7 +38,7 @@ let myaccount = algosdk.mnemonicToSecretKey("your mnemonic");
 ```
 Then run the script.
 ```bash
-node scripts/5-deploy-songvote.js
+node scripts/5-deploy-streamvote.js
 ```
 
 - Start the front-end
