@@ -15,7 +15,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #1b014aaa);
 }
 
 @keyframes logo-spin {
@@ -125,7 +125,7 @@
   border-radius: 5px;
   margin-bottom: 16px;
   width: 70%;
-  background-color: #df5e48;
+  background-color: #0f0909;
   color: whitesmoke;
   font-size: 18px;
 }
@@ -170,7 +170,7 @@
   position: relative;
 }
 
-.songs-container {
+.stream-container {
   margin-top: 10px;
   min-height: 150px;
   border-radius: 8px;
@@ -182,7 +182,7 @@
   padding: 12px;
 }
 
-.song-card {
+.stream-card {
     margin: 0px 11px 0px 10px;
     width: -webkit-fill-available;
     text-align: center;

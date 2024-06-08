@@ -197,12 +197,12 @@ function App() {
   return (
     <div className="mainContainer">
       <div className="dataContainer">
-        <div className="header">💻 What kind of stream do you like??</div>
+        <div className="header">💻What kind of stream do you prefer?</div>
         <div className="bio">
-          Vote for the better stream genre. Ensure your wallet is set to the{" "}
+          Vote for Your stream you like and enjoy. Makesure your wallet is set to the{" "}
           <b>testnet</b>.
         </div>
-        <div className="bio">Rules: Unlimited voting, get to clicking!</div>
+        <div className="bio">Rules: Unlimited voting available , start your voting journey </div>
 
         {!currentAccount && (
           <button className="walletButton" onClick={handleConnectWalletClick}>
@@ -215,7 +215,7 @@ function App() {
             {walletbalance <= 0.01 && (
               <>
                 <div className="bio">
-                  You don't have enough testalgo in your wallet to vote. Follow
+                  You don't have enough testalgo in your wallet to vote don’t need to worry. Follow
                   the link below to the test Algo faucet, fund your account,
                   then reload this page!
                 </div>
@@ -230,17 +230,17 @@ function App() {
             {walletbalance > 0.01 && (
               <>
                 <div className="stream-container">
-                  <div className="strean-card">
-                    <div className="title">Live video</div>
-                    <div className="count">{Count1}</div>
-                    <button className="mathButton" onClick={addC1}>
-                      {voteState1}
+                  <div className="stream-card">         
+                    <div className="title">Gaming Stream🎮</div>      
+                    <div className="count">{Count1}</div>       
+                    <button className="mathButton" onClick={addC1}>  
+                    {voteState1}                                    
                     </button>
                   </div>
                   <div className="stream-card">
-                    <div className="title">audio/podcast</div>
-                    <div className="count">{Count2}</div>
-                    <button className="mathButton" onClick={addC2}>
+                    <div className="title">Talkshows/Podcast🎙️</div>
+                       <div className="count">{Count2}</div>
+                       <button className="mathButton" onClick={addC2}>
                       {voteState2}
                     </button>
                   </div>

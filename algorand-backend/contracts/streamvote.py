@@ -10,7 +10,7 @@ def approval_program():
         Return(Int(1))
     )
 
-    # handle creation function above
+    # it handle creation function above
     handle_optin = Return(Int(0))
 
     handle_closeout = Return(Int(0))
